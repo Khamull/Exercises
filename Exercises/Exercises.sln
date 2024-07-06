@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Exercises.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 - PredicateDelegate", "..\PredicateDelegate\04 - PredicateDelegate.csproj", "{7DB65F18-646D-44CE-8870-5BB95234B167}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericTypes", "..\GenericTypes\GenericTypes.csproj", "{5BAB26E7-C588-4E85-86B3-8EBA07C2AFEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 - GenericTypes", "..\GenericTypes\01 - GenericTypes.csproj", "{5BAB26E7-C588-4E85-86B3-8EBA07C2AFEC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 - GenericsCollections", "..\GenericsCollections\02 - GenericsCollections.csproj", "{AD8AD12B-71B1-4FB9-A3E5-E272E7F59EAB}"
 EndProject
@@ -18,6 +18,15 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 - ClassTest", "..\ClassTest\06 - ClassTest.csproj", "{27E6A726-CB04-46C4-A3AB-DE995A59CC80}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 - AyncAwait", "..\AyncAwait\03 - AyncAwait.csproj", "{E4F5C9BC-D39E-4023-A885-F4D026A3B5A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Without Samples", "Without Samples", "{A0C422BB-43F4-4182-966C-97C4ECAA4CA0}"
+	ProjectSection(SolutionItems) = preProject
+		..\GenericsCollections\ArrayParams.txt = ..\GenericsCollections\ArrayParams.txt
+		..\GenericsCollections\Arrays.txt = ..\GenericsCollections\Arrays.txt
+		..\GenericsCollections\Destructors.txt = ..\GenericsCollections\Destructors.txt
+		..\GenericsCollections\GarbageCollection.txt = ..\GenericsCollections\GarbageCollection.txt
+		..\GenericsCollections\Overriding.txt = ..\GenericsCollections\Overriding.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
