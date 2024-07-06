@@ -6,6 +6,42 @@
         {
             int[] arr = { 3, 3, 4, 7, 8 };
             int d = 5;
+
+            /*Some possible edgecases*/
+            /*
+             * int[] arr = { 1, 2, 3 };
+             * int d = 3;
+             * Expected output: Number of distinct triplets with sum divisible by 3: 1
+             */
+
+            /*
+             * int[] arr = { 1000000000, 2000000000, 3000000000 };
+             * int d = 5;
+             * Expected output: Number of distinct triplets with sum divisible by 5: 1
+             */
+
+            /*
+             * int[] arr = { 2, 2, 2, 2, 2 };
+             * int d = 3;
+             * Expected output: Number of distinct triplets with sum divisible by 3: 6
+             */
+
+            /*
+             * Random random = new Random();
+             * int[] arr = new int[1000];
+             * for (int i = 0; i < 1000; i++)
+             * {
+             *      longCase1[i] = random.Next(1, 1000000000);
+             * }
+             * int d = 10;
+             * Expected output: Number of distinct triplets with sum divisible by 10: ?
+             */
+            /*
+             * int[] arr = { 3, 3, 4, 7, 8 };
+             * int d = 1000000;
+             * Expected output: Number of distinct triplets with sum divisible by 1000000: ?
+             */
+
             int tripletCount = GetTripletCount(arr, d);
             Console.WriteLine($"Number of distinct triplets with sum divisible by {d}: {tripletCount}");
         }
@@ -62,3 +98,19 @@
     }
 
 }
+/*
+ * We have the cost of stocks on each day given in a array arr. An investor wants to buy the stocks in triplets, such that the sum of the cost for three days id divisible dy d!
+The goal is to find the number of distinct triplets (i, j, k) such that i < J < K and the sum of (arr[i] + arr[j] + arr[k]) is divisble by d
+For instance let arr[3,3,4,7,8] and d = 5, the triplets sum is divisible by d are the below:
+Triplets with index (0,1,2), sum= 3+3+4=10
+Triplets with index (0,2,4), sum= 3+4+8=15
+Triplets with index (1,2,4), sum= 3+4+8=15
+So, the answer is 3
+
+I will have a function called getTripletCount, it receives an array arr[n], and a d, the divisor!
+
+Constrains:
+3 <= n <= 10^3
+1 <= arr[i] <= 10^9
+2 <= d <= 10 ^6
+ */
