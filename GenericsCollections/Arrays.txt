@@ -1,0 +1,20 @@
+Which among the following is a mandatory condition for an array of objects?
+
+All the objects should be of different classes.
+All the objects should be of the same program class.
+All the objects should be of the same class.
+All the objects should have different data.
+
+All the objects should be of different classes: 
+This is not a mandatory condition. Arrays can contain objects of the same class or different classes.
+
+All the objects should be of the same program class: 
+This option is not a standard programming requirement. It doesn't define a mandatory condition for arrays of objects.
+
+All the objects should be of the same class: 
+This is a common requirement. When you have an array of objects, typically all objects are instances of the same class. This allows for consistent handling and manipulation of the array elements.
+
+All the objects should have different data: 
+This is also not a mandatory condition. Arrays can contain objects with different data values or identical data values, depending on the application's needs.
+
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/arrays

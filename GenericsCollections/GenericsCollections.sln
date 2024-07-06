@@ -7,6 +7,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 - GenericsCollections", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 - GenericTypes", "..\01 - GenericTypes\01 - GenericTypes.csproj", "{00D0DE55-0B70-4623-B019-8B16A26A2D89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 - AyncAwait", "..\AyncAwait\03 - AyncAwait.csproj", "{9AF32F03-9E76-43CE-9048-49F5556A36F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 - PredicateDelegate", "..\PredicateDelegate\04 - PredicateDelegate.csproj", "{E66BF005-0B3F-4799-A99F-C40D10845477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 - ExceptionHandling", "..\ExceptionHandling\05 - ExceptionHandling.csproj", "{94F729F4-A930-4161-947A-5A43814C1B24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{59F9E3B9-3139-4709-B6A3-A702642FE58D}"
+	ProjectSection(SolutionItems) = preProject
+		ArrayParams.txt = ArrayParams.txt
+		Arrays.txt = Arrays.txt
+		Destructors.txt = Destructors.txt
+		GarbageCollection.txt = GarbageCollection.txt
+		Overriding.txt = Overriding.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 - ClassTest", "..\ClassTest\06 - ClassTest.csproj", "{3BE477C2-E733-4629-BAF0-65F25F185A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 - DestructorTest", "..\DestructorTest\07 - DestructorTest.csproj", "{8C690C32-7977-444E-9DBA-C06AC4C2A7E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +40,26 @@ Global
 		{00D0DE55-0B70-4623-B019-8B16A26A2D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00D0DE55-0B70-4623-B019-8B16A26A2D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00D0DE55-0B70-4623-B019-8B16A26A2D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF32F03-9E76-43CE-9048-49F5556A36F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF32F03-9E76-43CE-9048-49F5556A36F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF32F03-9E76-43CE-9048-49F5556A36F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF32F03-9E76-43CE-9048-49F5556A36F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66BF005-0B3F-4799-A99F-C40D10845477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66BF005-0B3F-4799-A99F-C40D10845477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66BF005-0B3F-4799-A99F-C40D10845477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66BF005-0B3F-4799-A99F-C40D10845477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F729F4-A930-4161-947A-5A43814C1B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F729F4-A930-4161-947A-5A43814C1B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F729F4-A930-4161-947A-5A43814C1B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F729F4-A930-4161-947A-5A43814C1B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE477C2-E733-4629-BAF0-65F25F185A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE477C2-E733-4629-BAF0-65F25F185A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE477C2-E733-4629-BAF0-65F25F185A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE477C2-E733-4629-BAF0-65F25F185A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C690C32-7977-444E-9DBA-C06AC4C2A7E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C690C32-7977-444E-9DBA-C06AC4C2A7E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C690C32-7977-444E-9DBA-C06AC4C2A7E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C690C32-7977-444E-9DBA-C06AC4C2A7E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

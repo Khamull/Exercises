@@ -1,0 +1,11 @@
+The Modifiers used to define an array of parametres or list of arguyments In C#, the params 
+keyword allows you to specify a method parameter that takes a variable number of arguments.
+The params keyword must be followed by an array type.
+It allows you to pass a varying number of arguments of the specified type to the method.
+
+public void ExampleMethod(params int[] numbers)
+{
+    // Method body
+}
+
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/params-collections

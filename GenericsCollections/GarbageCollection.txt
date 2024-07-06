@@ -1,0 +1,27 @@
+For C# garbage collectors, which statement is not true?
+
+Freeing Memory on the stack
+Avoiding Memory Leaks
+Freeing Memory Occupied by unreferenced objects
+Closing unclosed database connections
+Closing Unclosed Files
+
+Freeing Memory on the stack - False. Garbage collectors do not manage memory on the stack; they deal with memory on the managed heap.
+
+Avoiding Memory Leaks - True. Garbage collectors help in avoiding memory leaks by reclaiming memory occupied by unreferenced objects.
+
+Freeing Memory Occupied by unreferenced objects - True. This is a primary function of garbage collectors in C#. They reclaim memory from objects that are no longer reachable.
+
+Closing unclosed database connections - False. Garbage collectors do not manage database connections. It's the programmer's responsibility to manage and close connections properly.
+
+Closing Unclosed Files - False. Garbage collectors do not manage file resources. Proper file handling includes closing files explicitly when they are no longer needed.
+
+Therefore, the combinations are:
+
+Statement 1: False (Freeing Memory on the stack)
+Statement 2: True (Avoiding Memory Leaks)
+Statement 3: True (Freeing Memory Occupied by unreferenced objects)
+Statement 4: False (Closing unclosed database connections)
+Statement 5: False (Closing Unclosed Files)
+
+https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals

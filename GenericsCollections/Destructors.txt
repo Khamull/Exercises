@@ -1,0 +1,18 @@
+Select the Wrong Statement About Destructor in C#:
+
+1- A class can have one destructor only.
+2- Destructors cannot be inherited or overloaded.
+3 -Destructors cannot have modifiers or parameters.
+4 - All of the Above.
+
+A class can have one destructor only: 
+This statement is correct. In C#, a class can have only one destructor, which is identified by the tilde (~) followed by the class name.
+
+Destructors cannot be inherited or overloaded: 
+This statement is correct. Destructors in C# cannot be inherited or overloaded. They are automatically called when an object is destroyed, and this behavior cannot be modified or extended in subclasses.
+
+Destructors can have modifiers or parameters: 
+This statement is incorrect. In C#, destructors cannot have any parameters or modifiers. They also cannot be accessed directly or called manually; their execution is controlled solely by the garbage collector.
+
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/finalizers
+

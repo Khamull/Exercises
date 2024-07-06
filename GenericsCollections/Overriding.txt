@@ -1,0 +1,56 @@
+In C#, overriding refers to the process of redefining a method in a subclass (derived class) with the same name and type signature as a method in its superclass (base class). This allows the subclass to provide a specific implementation of the method that differs from the implementation in the superclass.
+
+Key points about method overriding in C#:
+
+Method Signature: The overridden method in the subclass must have the exact same signature (name, return type, and parameters) as the method in the superclass.
+
+Keyword Usage: To override a method, you use the override keyword in the method declaration in the subclass.
+
+Inheritance Requirement: Method overriding is possible only when there is a base class (superclass) and a derived class (subclass) relationship.
+
+Virtual Methods: The method in the superclass must be declared using the virtual keyword to allow it to be overridden. If a method is not marked as virtual, it cannot be overridden in subclasses.
+
+Here's a simple example to illustrate method overriding in C#:
+
+csharp
+Copy code
+// Base class
+class Animal
+{
+    public virtual void MakeSound()
+    {
+        Console.WriteLine("Animal makes a sound");
+    }
+}
+
+// Derived class
+class Dog : Animal
+{
+    public override void MakeSound()
+    {
+        Console.WriteLine("Dog barks");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Animal animal = new Animal();
+        animal.MakeSound();  // Output: "Animal makes a sound"
+
+        Dog dog = new Dog();
+        dog.MakeSound();     // Output: "Dog barks"
+
+        Animal animal2 = new Dog();
+        animal2.MakeSound(); // Output: "Dog barks" (even when referred to as Animal)
+    }
+}
+In this example:
+
+The Animal class has a virtual method MakeSound() which can be overridden.
+The Dog class overrides MakeSound() to provide a specific behavior (barking).
+When an instance of Dog is created, calling MakeSound() on it executes the overridden method from Dog.
+Even when an instance of Dog is referred to as an Animal, the overridden method in Dog is still called due to polymorphism.
+Method overriding is fundamental to achieving polymorphic behavior in object-oriented programming
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/override
