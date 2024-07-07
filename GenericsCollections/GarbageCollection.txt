@@ -3,7 +3,7 @@ For C# garbage collectors, which statement is not true?
 Freeing Memory on the stack
 Avoiding Memory Leaks
 Freeing Memory Occupied by unreferenced objects
-Closing unclosed database connections
+Closing unclosed database connections/Collections, needs to reasearch
 Closing Unclosed Files
 
 Freeing Memory on the stack - False. Garbage collectors do not manage memory on the stack; they deal with memory on the managed heap.
